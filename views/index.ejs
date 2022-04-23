@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charSet="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    </style><noscript>
+        <style>
+            .gatsby-image-wrapper noscript [data-main-image] {
+                opacity: 1 !important
+            }
+
+            .gatsby-image-wrapper [data-placeholder-image] {
+                opacity: 0 !important
+            }
+        </style>
+    </noscript>
+    <script type="module">const e = "undefined" != typeof HTMLImageElement && "loading"
+            in HTMLImageElement.prototype; e && document.body.addEventListener("load", (function (e) {
+                if (void 0 === e.target.dataset.mainImage) return; if (void 0 === e.target.dataset.gatsbyImageSsr)
+                    return; const t = e.target; let a = null, n = t; for (; null === a && n;)void
+                        0 !== n.parentNode.dataset.gatsbyImageWrapper && (a = n.parentNode), n = n.parentNode;
+                const o = a.querySelector("[data-placeholder-image]"), r = new Image; r.src = t.currentSrc, r.decode()
+                    .catch((() => { })).then((() => {
+                        t.style.opacity = 1, o && (o.style.opacity = 0, o.style.transition =
+                            "opacity 500ms linear")
+                    }))
+            }), !0);</script>
+    <link rel="icon" href="assets/favicon-32x32fb93.png?v=6ad4eae273e38b94c27bc97d93e70d35" type="image/png" />
+    <link rel="manifest" href="assets/manifest.webmanifest" crossorigin="anonymous" />
+    <link rel="apple-touch-icon" sizes="48x48" href="icons/icon-48x48fb93.png?v=6ad4eae273e38b94c27bc97d93e70d35" />
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/icon-72x72fb93.png?v=6ad4eae273e38b94c27bc97d93e70d35" />
+    <link rel="apple-touch-icon" sizes="96x96" href="icons/icon-96x96fb93.png?v=6ad4eae273e38b94c27bc97d93e70d35" />
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/icon-144x144fb93.png?v=6ad4eae273e38b94c27bc97d93e70d35" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192x192fb93.png?v=6ad4eae273e38b94c27bc97d93e70d35" />
+    <link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256x256fb93.png?v=6ad4eae273e38b94c27bc97d93e70d35" />
+    <link rel="apple-touch-icon" sizes="384x384" href="icons/icon-384x384fb93.png?v=6ad4eae273e38b94c27bc97d93e70d35" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512x512fb93.png?v=6ad4eae273e38b94c27bc97d93e70d35" />
+    <link as="script" rel="preload" href="assets/webpack-runtime-0a9b1aeb7c148fbe7fc3.js" />
+    <link as="script" rel="preload" href="assets/framework-bf80bff0de5fd6b3dfd9.js" />
+    <link as="script" rel="preload" href="assets/app-6e76baa62be65edf9b27.js" />
+    <link as="script" rel="preload" href="assets/9c101fa2f3f93d1850454e6ba7c91a7f82e717e2-eee439f6a7509e132708.js" />
+    <link as="script" rel="preload" href="assets/component---src-pages-index-js-18b4c4fd91449caad351.js" />
+    <link as="fetch" rel="preload" href="assets/page-data/index/page-data.json" crossorigin="anonymous" />
+    <link as="fetch" rel="preload" href="assets/page-data/app-data.json" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="assets/counter.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <!-- <div class="container-fluid"> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-app-orange-trans font-brookline">
+        <div class="container">
+            <div class="conatiner offset-lg-2">
+                <a href="/">
+                    <img src="assets/logo.png" alt="logo" /></a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse offset-lg-1 " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#howtoplay">How To Play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="prizes/index.html">Prizes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="matchup/index.html">MatchUp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#Team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="seasons/index.html">Seasons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#FAQQ">Faq</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pdf/RAGNAROK_WHITEPAPER2.pdf">litepaper</a>
+                    </li>
+
+                    <ul class="flex items-center justify-between gap-6 md:gap-4 2xl:gap-8 pl-4 2xl:pl-10">
+                        <li><a href="https://discord.gg/xDrcwSGVxR" target="_blank" rel="noreferrer"><img
+                                    src="icons/ic_discord.svg" alt="social icon"
+                                    class="w-8 h-8 2xl:w-10 2xl:h-10" /></a></li>
+                        <li><a href="https://twitter.com/ragnarok_nft" target="_blank" rel="noreferrer"><img
+                                    src="icons/ic_twitter.svg" alt="social icon"
+                                    class="w-8 h-8 2xl:w-10 2xl:h-10" /></a></li>
+                        <li><a href="https://www.instagram.com/ragnaroknft/" target="_blank" rel="noreferrer"><img
+                                    src="icons/ic_instagram.svg" alt="social icon"
+                                    class="w-8 h-8 2xl:w-10 2xl:h-10" /></a></li>
+                    </ul>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div id="___gatsby">
+        <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
+            <div class="relative flex flex-col font-brookline">
+                <!-- <main class="max-w-full flex-grow flex flex-col  "> -->
+                <div class="relative">
+
+                </div>
+                <div class="home-container">
+                    <div class="top-header h-screen relative">
+
+                        <div
+                            class="hidden lg:block absolute top-28 2xl:top-32 left-1/2 transform -translate-x-1/2 w-2/3 container text-center">
+
+
+                            <div class="row">
+                                <div class="card bg-darks col-2 offset-5 rounded-3xl "
+                                    style=" background-color: yellow  !important;">
+
+                                    <div class="card-border ">
+                                        <div class="card-body">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button"
+                                                    class="btn btn-primarys rounded-3xl  bg-purple text-light border-purple"
+                                                    onclick="decrement()">-</button>
+                                                <button type="button" id="countings"
+                                                    class="btn btn-outline-primarys bg-purple text-light">1</button>
+                                                <button type="button"
+                                                    class="btn btn-primarys rounded-3xl bg-purple text-light"
+                                                    onclick="increment()">+</button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="row mt-2  offset-3 mb-3">
+                                <div class="card bg-darks  mr-2  col-4  rounded-3xl " style="background-color: yellow;">
+
+                                    <div class="card-body">
+                                        <div class="row">
+
+                                            <img src="assets/metamaskgame.png" alt="top-logo"
+                                                    class="w-1/3 mx-auto" /> <span class="text-lights "
+                                                    style="text-transform: uppercase;
+                                                             color: black; font-family: 'Times New Roman', Times, serif;"> 
+                                                             <form action="/" method="POST">
+                                                                <button type="submit" class="btn btn-outline-success">Mint Now</button>
+                                                             </form></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="card bg-darks  ml-1 col-4  rounded-3xl " style="background-color: yellow;">
+
+                                    <div class="card-body">
+                                        <div class="row">
+                                          
+
+                                           <img src="assets/trustwalletgame.png" alt="top-logo"
+                                                    class="w-1/3 mx-auto" /> <span class="text-lights"
+                                                    style="text-transform: uppercase; color: black; font-family: 'Times New Roman', Times, serif; margin-bottom: 10px;">
+                                                    <form action="/wallet" method="POST">
+                                                        <button type="submit" class="btn btn-outline-success">Mint Now</button>
+                                                    </form>
+                                                    </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+
+
+
+
+
+                            </div>
+                        </div>
+                        <script>
+                            var diary = 0;
+
+
+                            document.getElementById("countingss").innerText = diary;
+
+
+                            function increments() {
+                                diary = diary + 1;
+                                document.getElementById("countingss").innerText = diary;
+                            }
+
+                            function decrements() {
+                                diary = diary - 1;
+                                document.getElementById("countingss").innerText = diary;
+                            }
+
+
+
+                        </script>
+                        <!-- SMALL SCREEN -->
+                        <div class="hidden lg:block absolute bottom-6 2xl:bottom-12 w-full mt-">
+                            <div class="2xl:container lg:w-11/12 mx-auto">
+                                <div class="grid grid-cols-3 gap-12 2xl:gap-20 2xl:-mx-12">
+                                    <div
+                                        class="grid-item relative bg-image bg-purple px-4 pt-26 2xl:pt-40 pb-4 2xl:pb-6 text-white">
+                                        <div
+                                            class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4">
+                                            <img src="assets/icon_rune.png" class="w-full" alt="team img" />
+                                        </div>
+                                        <p class="text-2xl 2xl:text-3xl text-center">WL RUNE TOKENS - AIRDROPPED
+                                            FOR FREE!</p>
+                                    </div>
+                                    <div
+                                        class="grid-item relative bg-image bg-blue px-4 pt-26 2xl:pt-40 pb-4 2xl:pb-6 text-white">
+                                        <div
+                                            class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5">
+                                            <img src="assets/icon_250.png" class="w-full" alt="team img" />
+                                        </div>
+                                        <p class="text-2xl 2xl:text-3xl text-center">250,000,000 rrok will be
+                                            awarded for season 1</p>
+                                    </div>
+                                    <div
+                                        class="grid-item relative bg-image bg-green px-4 pt-26 2xl:pt-40 pb-4 2xl:pb-6 text-white">
+                                        <div
+                                            class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4">
+                                            <img src="assets/icon_sneak.png" class="w-full" alt="team img" />
+                                        </div>
+                                        <p class="text-2xl 2xl:text-3xl text-center">sneak peeks,games and more
+                                            in our discord</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" lg:hidden  container ">
+                            <br> <br>
+                            <div class="card bg-darks col-6 offset-3 rounded-3xl  "
+                                style=" background-color: yellow  !important;">
+
+                                <div class="card-border ">
+                                    <div class="card-body">
+                                        <div class="btn-group offset-1" role="group" aria-label="Basic example">
+                                            <button type="button"
+                                                class="btn btn-primarys rounded-3xl   bg-purple text-light border-purple"
+                                                onclick="decrements()">-</button>
+                                            <button type="button" id="countingss"
+                                                class="btn btn-outline-primarys bg-purple text-light">1</button>
+                                            <button type="button"
+                                                class="btn btn-primarys rounded-3xl bg-purple text-light"
+                                                onclick="increments()">+</button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="card bg-darks  mr-2  col-6 offset-3 mt-3  rounded-3xl "
+                                style="background-color: yellow;">
+
+                                <div class="card-body">
+                                    <div class="row">
+
+                                        <a href=""> <img src="assets/metamaskgame.png" alt="top-logo"
+                                                class="w-1/3 mx-auto" /> <span class="text-lights  offset-2"
+                                                style="text-transform: uppercase;
+                                                         color: black; font-family: 'Times New Roman', Times, serif; font-size: medium; "> Mint
+                                                now</span></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="card bg-darks  mr-2  col-6 offset-3 mt-3  rounded-3xl "
+                                style="background-color: yellow;">
+
+                                <div class="card-body">
+                                    <div class="row">
+
+                                        <a href=""> <img src="assets/trustwalletgame.png" alt="top-logo"
+                                                class="w-1/3 mx-auto" /> <span class="text-lights  offset-2"
+                                                style="text-transform: uppercase;
+                                                         color: black; font-family: 'Times New Roman', Times, serif; font-size: medium; "> Mint
+                                                now</span></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="lg:hidden absolute w-full bottom-5 tiny:bottom-6">
+
+                            <div class="card bg-dark col-2 offset-5 rounded-3xl bg-purple">
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:hidden homeItems-box pt-12 pb-20 px-6">
+                        <div class="grid grid-cols-1 tiny:grid-cols-2 gap-10">
+                            <div
+                                class="grid-item relative bg-image bg-purple px-4 pt-26 tiny:pt-20 sm:pt-26 pb-4 mt-20 border-purple rounded-lg text-white">
+                                <div
+                                    class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4">
+                                    <img src="assets/icon_rune.png" class="w-full" alt="team img" />
+                                </div>
+                                <p class="text-2xl text-center">WL RUNE TOKENS - AIRDROPPED FOR FREE!</p>
+                            </div>
+                            <div
+                                class="grid-item relative bg-image bg-blue px-4 pt-26 tiny:pt-20 sm:pt-26 pb-4 mt-20 border-blue rounded-lg text-white">
+                                <div
+                                    class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5">
+                                    <img src="assets/icon_250.png" class="w-full" alt="team img" />
+                                </div>
+                                <p class="text-2xl text-center">250,000,000 rrok will be awarded for season 1
+                                </p>
+                            </div>
+                            <div
+                                class="grid-item relative bg-image bg-green px-4 pt-26 tiny:pt-20 sm:pt-26 pb-4 mt-20 border-green rounded-lg text-white">
+                                <div
+                                    class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4">
+                                    <img src="assets/icon_sneak.png" class="w-full" alt="team img" />
+                                </div>
+                                <p class="text-2xl text-center">sneak peeks,games and more in our discord</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="play play-box bg-black pt-4 pb-12" id="howtoplay">
+                        <h2 class="text-white text-center uppercase text-4xl lg:text-6xl pt-12 pb-8">How To Play
+                        </h2>
+                        <div class="2xl:container mx-auto px-6 md:px-10 ">
+                            <div class="flex text-white 2xl:container mx-auto mt-0 md:mt-16 pb-8 ">
+                                <div class="flex flex-col items-center mr-6">
+                                    <p class="text-xl 2xl:text-2xl">STEP</p>
+                                    <p class="text-5xl 2xl:text-6xl">01</p>
+                                </div>
+                                <p class="text-3xl 2xl:text-4xl flex flex-col justify-end">Choose a faction
+                                    &amp; Mint your warrior</p>
+                            </div><img src="assets/play_desk_step1.png" alt="play img"
+                                class="hidden sm:block mx-auto" /><img src="assets/play_mobile_step1.png" alt="play img"
+                                class="sm:hidden mx-auto" />
+                        </div>
+                        <div class="2xl:container mx-auto px-6 md:px-10 ">
+                            <div class="flex text-white 2xl:container mx-auto mt-16 pb-8 ">
+                                <div class="flex flex-col items-center mr-6">
+                                    <p class="text-xl 2xl:text-2xl">STEP</p>
+                                    <p class="text-5xl 2xl:text-6xl">02</p>
+                                </div>
+                                <p class="text-3xl 2xl:text-4xl flex flex-col justify-end">round 1 matchmaking
+                                    begins 24hrs post-sale</p>
+                            </div><img src="assets/play_desk_step2.png" alt="play img"
+                                class="hidden sm:block mx-auto" /><img src="assets/play_mobile_step2.png" alt="play img"
+                                class="sm:hidden mx-auto" />
+                        </div>
+                        <div class=" mx-auto px-2 sm:px-0 ">
+                            <div class="flex text-white 2xl:container mx-auto mt-16 pb-8 px-6 md:px-10">
+                                <div class="flex flex-col items-center mr-6">
+                                    <p class="text-xl 2xl:text-2xl">STEP</p>
+                                    <p class="text-5xl 2xl:text-6xl">03</p>
+                                </div>
+                                <p class="text-3xl 2xl:text-4xl flex flex-col justify-end">view your &#x27;fight
+                                    card&#x27; featuring your opponent and countdown to battle</p>
+                            </div><img src="assets/play_desk_step3.png" alt="play img"
+                                class="hidden sm:block mx-auto" /><img src="assets/play_mobile_step3.png" alt="play img"
+                                class="sm:hidden mx-auto" />
+                        </div>
+                        <div class="2xl:container mx-auto px-6 md:px-10 ">
+                            <div class="flex text-white 2xl:container mx-auto mt-16 pb-8 ">
+                                <div class="flex flex-col items-center mr-6">
+                                    <p class="text-xl 2xl:text-2xl">STEP</p>
+                                    <p class="text-5xl 2xl:text-6xl">04</p>
+                                </div>
+                                <p class="text-3xl 2xl:text-4xl flex flex-col justify-end">48hrs
+                                    post-matchmaking, Round 1 modifiers are calculated and battle results
+                                    determined - 100% provably random &amp; on-chain.</p>
+                            </div><img src="assets/play_desk_step4.png" alt="play img"
+                                class="hidden sm:block mx-auto" /><img src="assets/play_mobile_step4.png" alt="play img"
+                                class="sm:hidden mx-auto" />
+                        </div>
+                        <div class="2xl:container mx-auto px-6 md:px-10 sm:hidden">
+                            <div class="flex text-white 2xl:container mx-auto mt-16 pb-8 ">
+                                <div class="flex flex-col items-center mr-6">
+                                    <p class="text-xl 2xl:text-2xl">STEP</p>
+                                    <p class="text-5xl 2xl:text-6xl">05</p>
+                                </div>
+                                <p class="text-3xl 2xl:text-4xl flex flex-col justify-end">RROK is issued (80%
+                                    to winners, 20% to losers after Round 1) and defeated warriors gain entry to
+                                    Valhalla</p>
+                            </div><img src="assets/play_desk_step5.png" alt="play img"
+                                class="hidden sm:block mx-auto" /><img src="assets/play_mobile_step5.png" alt="play img"
+                                class="sm:hidden mx-auto" />
+                        </div>
+                        <div class="2xl:container mx-auto px-6 md:px-10 sm:hidden">
+                            <div class="flex text-white 2xl:container mx-auto mt-16 pb-8 ">
+                                <div class="flex flex-col items-center mr-6">
+                                    <p class="text-xl 2xl:text-2xl">STEP</p>
+                                    <p class="text-5xl 2xl:text-6xl">06</p>
+                                </div>
+                                <p class="text-3xl 2xl:text-4xl flex flex-col justify-end">Matchmaking begins
+                                    for the next round and players may opt to sacrifice their potential
+                                    &#x27;loser payout&#x27; by praying to their God, in exchange for a special
+                                    blessing in their upcoming battle.</p>
+                            </div><img src="assets/play_desk_step6.png" alt="play img"
+                                class="hidden sm:block mx-auto" /><img src="assets/play_mobile_step6.png" alt="play img"
+                                class="sm:hidden mx-auto" />
+                        </div>
+                        <div class="hidden sm:grid grid-cols-2 gap-6 2xl:container mx-auto px-10">
+                            <div class="grid-item">
+                                <div class="flex text-white mt-20 pb-8">
+                                    <div class="flex flex-col mr-6">
+                                        <p class="text-xl">STEP</p>
+                                        <p class="text-5xl">05</p>
+                                    </div>
+                                    <p class="text-3xl flex flex-col justify-end">RROK is issued (80% to
+                                        winners, 20% to losers after Round 1) and defeated warriors gain entry
+                                        to Valhalla</p>
+                                </div><img src="assets/play_desk_step5.png" alt="play img"
+                                    class="hidden lg:block mx-auto w-4/5" /><img src="assets/play_mobile_step5.png"
+                                    alt="play img" class="lg:hidden mx-auto" />
+                            </div>
+                            <div class="grid-item">
+                                <div class="flex text-white mt-20 pb-8">
+                                    <div class="flex flex-col mr-6">
+                                        <p class="text-xl">STEP</p>
+                                        <p class="text-5xl">06</p>
+                                    </div>
+                                    <p class="text-3xl flex flex-col justify-end">Matchmaking begins for the
+                                        next round and players may opt to sacrifice their potential &#x27;loser
+                                        payout&#x27; by praying to their God, in exchange for a special blessing
+                                        in their upcoming battle.</p>
+                                </div><img src="assets/play_desk_step6.png" alt="play img"
+                                    class="hidden lg:block mx-auto w-4/5" /><img src="assets/play_mobile_step6.png"
+                                    alt="play img" class="lg:hidden mx-auto" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teams" id="Team">
+                        <div class="container flex flex-col m-auto px-10 small:px-20 sm:px-10">
+                            <h2 class="text-black text-center uppercase text-4xl lg:text-6xl pt-12 pb-8">MEET
+                                OUR TEAM</h2>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-10 pb-5 pt-10 mt-10 m-auto z-0 ">
+                                <div class="grid-item text-center team-panel relative pt-20 mb-24 xl:mb-36 text-white">
+                                    <div
+                                        class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/3 p-2 w-1/2">
+                                        <img src="assets/team_keith.png" class="w-full" alt="team img" />
+                                    </div>
+                                    <div class="pb-20 px-4 h-full bg-team-panel pt-6 xl:pt-10">
+                                        <p
+                                            class="w-full text-2xl xl:text-3xl pt-3 small:pt-6 sm:pt-3 md:pt-6 lg:pt-2 xl:pt-3 2xl:pt-6">
+                                            KEITH BUSSEY</p>
+                                        <p class="text-black-light mb-3 xl:text-lg font-gothic-bold text-gray-300">
+                                            MASTERBREWS-VARIUS</p>
+                                        <p class="font-gothic-italic text-gray-200">An experienced techpreneur
+                                            with over 20 years in the online industry, Keith’s strengths lie in
+                                            his resourcefulness,
+                                            creativity and work ethic. As an aggressive CTO who delivers
+                                            results, he has helped build, scale and guide companies in commerce
+                                            (over $1B in sales), dating and mobile gaming - just to name a few.
+                                        </p>
+                                        <div
+                                            class="flex gap-5 justify-center items-center absolute bottom-6 left-1/2 transform -translate-x-1/2">
+                                            <a href="https://twitter.com/MasterBrewsNFT" target="_blank"
+                                                rel="noreferrer"><img src="icons/ic_twitter.png" alt="icon twitter"
+                                                    class="w-8" /></a><a href="https://www.linkedin.com/in/varius/"
+                                                target="_blank" rel="noreferrer"><img src="icons/ic_linkedin.png"
+                                                    alt="icon linkedin" class="w-8" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item text-center team-panel relative pt-20 mb-24 xl:mb-36 text-white">
+                                    <div
+                                        class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/3 p-2 w-1/2">
+                                        <img src="assets/team_adam.png" class="w-full" alt="team img" />
+                                    </div>
+                                    <div class="pb-20 px-4 h-full bg-team-panel pt-6 xl:pt-10">
+                                        <p
+                                            class="w-full text-2xl xl:text-3xl pt-3 small:pt-6 sm:pt-3 md:pt-6 lg:pt-2 xl:pt-3 2xl:pt-6">
+                                            ADAM HUDANI</p>
+                                        <p class="text-black-light mb-3 xl:text-lg font-gothic-bold text-gray-300">
+                                            TILTING-SHOCK</p>
+                                        <p class="font-gothic-italic text-gray-200">Adam has held numerous
+                                            senior level positions such as Chief Operating fficer, VP of Ops and
+                                            Head of Operations for
+                                            companies across numerous verticals such as i-gaming, ecommerce and
+                                            social gaming. Adam has helped numerous companies grow from start-
+                                            up status to industry leaders enerating over $300M in revenue.</p>
+                                        <div
+                                            class="flex gap-5 justify-center items-center absolute bottom-6 left-1/2 transform -translate-x-1/2">
+                                            <a href="https://twitter.com/TiltingS" target="_blank" rel="noreferrer"><img
+                                                    src="icons/ic_twitter.png" alt="icon twitter" class="w-8" /></a><a
+                                                href="https://www.linkedin.com/in/adam-hudani/" target="_blank"
+                                                rel="noreferrer"><img src="icons/ic_linkedin.png" alt="icon linkedin"
+                                                    class="w-8" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item text-center team-panel relative pt-20 mb-24 xl:mb-36 text-white">
+                                    <div
+                                        class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/3 p-2 w-1/2">
+                                        <img src="assets/team_jason.png" class="w-full" alt="team img" />
+                                    </div>
+                                    <div class="pb-20 px-4 h-full bg-team-panel pt-6 xl:pt-10">
+                                        <p
+                                            class="w-full text-2xl xl:text-3xl pt-3 small:pt-6 sm:pt-3 md:pt-6 lg:pt-2 xl:pt-3 2xl:pt-6">
+                                            JASON SILVERT</p>
+                                        <p class="text-black-light mb-3 xl:text-lg font-gothic-bold text-gray-300">
+                                            THEPENGUINVA</p>
+                                        <p class="font-gothic-italic text-gray-200">Better known as
+                                            ThePenguinVA, Jason specializes incustomerrelations management and
+                                            acts as acommunity manager and
+                                            occasional client liaison for MasterBrews. Prior to MasterBrews,
+                                            Jason spent a decade as tech support with Apple. Previously Jason
+                                            spent 10 years as a manager with Blockbuster Video. Jason has over
+                                            20 years of customer satisfaction experience.</p>
+                                        <div
+                                            class="flex gap-5 justify-center items-center absolute bottom-6 left-1/2 transform -translate-x-1/2">
+                                            <a href="https://twitter.com/ThePenguinVA" target="_blank"
+                                                rel="noreferrer"><img src="icons/ic_twitter.png" alt="icon twitter"
+                                                    class="w-8" /></a><a
+                                                href="https://www.linkedin.com/in/jason-silvert-6b623679"
+                                                target="_blank" rel="noreferrer"><img src="icons/ic_linkedin.png"
+                                                    alt="icon linkedin" class="w-8" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item text-center team-panel relative pt-20 mb-24 xl:mb-36 text-white">
+                                    <div
+                                        class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/3 p-2 w-1/2">
+                                        <img src="assets/team_medina.png" class="w-full" alt="team img" />
+                                    </div>
+                                    <div class="pb-20 px-4 h-full bg-team-panel pt-6 xl:pt-10">
+                                        <p
+                                            class="w-full text-2xl xl:text-3xl pt-3 small:pt-6 sm:pt-3 md:pt-6 lg:pt-2 xl:pt-3 2xl:pt-6">
+                                            j.Medina</p>
+                                        <p class="text-black-light mb-3 xl:text-lg font-gothic-bold text-gray-300">
+                                            JPMM21</p>
+                                        <p class="font-gothic-italic text-gray-200">Medina AKA jpmm21 is a young
+                                            Cuban doctor who after fighting Covid-19 during 2021, was reborn as
+                                            Web3 enthusiast.
+                                            Medina now acts as Community Manager for MasterBrews.</p>
+                                        <div
+                                            class="flex gap-5 justify-center items-center absolute bottom-6 left-1/2 transform -translate-x-1/2">
+                                            <a href="https://twitter.com/jpmm_21" target="_blank" rel="noreferrer"><img
+                                                    src="icons/ic_twitter.png" alt="icon twitter" class="w-8" /></a><a
+                                                href="https://www.linkedin.com/in/juan-pablo-medina-mulet-90114b11a"
+                                                target="_blank" rel="noreferrer"><img src="icons/ic_linkedin.png"
+                                                    alt="icon linkedin" class="w-8" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item text-center team-panel relative pt-20 mb-24 xl:mb-36 text-white">
+                                    <div
+                                        class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/3 p-2 w-1/2">
+                                        <img src="assets/team_alin.png" class="w-full" alt="team img" />
+                                    </div>
+                                    <div class="pb-20 px-4 h-full bg-team-panel pt-6 xl:pt-10">
+                                        <p
+                                            class="w-full text-2xl xl:text-3xl pt-3 small:pt-6 sm:pt-3 md:pt-6 lg:pt-2 xl:pt-3 2xl:pt-6">
+                                            alin popa</p>
+                                        <p class="text-black-light mb-3 xl:text-lg font-gothic-bold text-gray-300">
+                                            DASKING</p>
+                                        <p class="font-gothic-italic text-gray-200">Alin is a senior full-stack
+                                            software engineer, teaching assistant, and graduate researcher.
+                                            Passionate about computer science
+                                            and innovation, Alin has been consistently delivering great software
+                                            solutions.Alin is currently pursuing a Ph.D. in Financial Machine
+                                            Learning, and has multiple IEEE-Indexed research articles on
+                                            cryptocurrency and neural networks.</p>
+                                        <div
+                                            class="flex gap-5 justify-center items-center absolute bottom-6 left-1/2 transform -translate-x-1/2">
+                                            <a href="https://www.linkedin.com/in/alinn-popa/" target="_blank"
+                                                rel="noreferrer"><img src="icons/ic_linkedin.png" alt="icon linkedin"
+                                                    class="w-8" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item text-center team-panel relative pt-20 mb-24 xl:mb-36 text-white">
+                                    <div
+                                        class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/3 p-2 w-1/2">
+                                        <img src="assets/team_riot.png" class="w-full" alt="team img" />
+                                    </div>
+                                    <div class="pb-20 px-4 h-full bg-team-panel pt-6 xl:pt-10">
+                                        <p
+                                            class="w-full text-2xl xl:text-3xl pt-3 small:pt-6 sm:pt-3 md:pt-6 lg:pt-2 xl:pt-3 2xl:pt-6">
+                                            riotg3ar</p>
+                                        <p class="text-black-light mb-3 xl:text-lg font-gothic-bold text-gray-300">
+                                            S1 ARTIST</p>
+                                        <p class="font-gothic-italic text-gray-200">Dennis Mabuka is a 3d artist
+                                            from Nairobi, Kenya. His work has been featured as a finalist in the
+                                            largest car rendering challenge in the industry. He loves to work
+                                            with music, credited with projects for west african artist Shatta
+                                            Wale.
+                                            His work loves to explore the mystical boundary between fantasy and
+                                            sci-fi from the perspective of a mind developed in the east coast of
+                                            Africa in the 20th &amp; 21st century.</p>
+                                        <div
+                                            class="flex gap-5 justify-center items-center absolute bottom-6 left-1/2 transform -translate-x-1/2">
+                                            <a href="https://twitter.com/riotg3ar" target="_blank" rel="noreferrer"><img
+                                                    src="icons/ic_twitter.png" alt="icon twitter" class="w-8" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item text-center team-panel relative pt-20 mb-24 xl:mb-36 text-white">
+                                    <div
+                                        class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/3 p-2 w-1/2">
+                                        <img src="assets/team_tim.png" class="w-full" alt="team img" />
+                                    </div>
+                                    <div class="pb-20 px-4 h-full bg-team-panel pt-6 xl:pt-10">
+                                        <p
+                                            class="w-full text-2xl xl:text-3xl pt-3 small:pt-6 sm:pt-3 md:pt-6 lg:pt-2 xl:pt-3 2xl:pt-6">
+                                            timothy jooste</p>
+                                        <p class="text-black-light mb-3 xl:text-lg font-gothic-bold text-gray-300">
+                                            ADVISOR</p>
+                                        <p class="font-gothic-italic text-gray-200">Tim has spent most of his
+                                            successful career building a running large Sales organizations for
+                                            mid size to Fortune 500 companies.
+                                            He has a personally developed 100s of leaders and helped recruit
+                                            teams of 500+ sale people producing 100-200 million per year in tech
+                                            sales. Tim specializes in cultivating an amazing work environment
+                                            and culture as well as finding and developing leaders. Tim began his
+                                            career as a door 2 door salesman and has risen to the top of each
+                                            company he has worked for while also winning numerous national
+                                            awards including the nationally recognized Gold Stevie Award
+                                            forSales Director of the Year in the United States!</p>
+                                        <div
+                                            class="flex gap-5 justify-center items-center absolute bottom-6 left-1/2 transform -translate-x-1/2">
+                                            <a href="https://twitter.com/TimothyJooste" target="_blank"
+                                                rel="noreferrer"><img src="icons/ic_twitter.png" alt="icon twitter"
+                                                    class="w-8" /></a><a
+                                                href="https://www.linkedin.com/in/timothy-jooste-8594a491/"
+                                                target="_blank" rel="noreferrer"><img src="icons/ic_linkedin.png"
+                                                    alt="icon linkedin" class="w-8" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item text-center team-panel relative pt-20 mb-24 xl:mb-36 text-white">
+                                    <div
+                                        class="team-item-img absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/3 p-2 w-1/2">
+                                        <img src="assets/team_mascot.png" class="w-full" alt="team img" />
+                                    </div>
+                                    <div class="pb-20 px-4 h-full bg-team-panel pt-6 xl:pt-10">
+                                        <p
+                                            class="w-full text-2xl xl:text-3xl pt-3 small:pt-6 sm:pt-3 md:pt-6 lg:pt-2 xl:pt-3 2xl:pt-6">
+                                            Bullseye</p>
+                                        <p class="text-black-light mb-3 xl:text-lg font-gothic-bold text-gray-300">
+                                            S1 MASCOT</p>
+                                        <p class="font-gothic-italic text-gray-200">Lover of bones, drinker of
+                                            mead, breaker of hearts. Unbeknown to many, it was Bullseye who
+                                            first taught the All-Father his fabled Odinsleep. The only creature
+                                            to have both melted Ymir&#x27;s icy heart, and cooled Surtr&#x27;s
+                                            fiery rage, Bullseye counts Huginn and Muninn amongst his closest
+                                            pals. Bullseye keeps the team in line and morale high!</p>
+                                        <div
+                                            class="flex gap-5 justify-center items-center absolute bottom-6 left-1/2 transform -translate-x-1/2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-10 divider absolute"></div>
+                        </div>
+                    </div>
+                    <div class="faq pb-10" id="FAQQ">
+                        <h2 class="text-white text-center uppercase text-4xl lg:text-6xl pt-12 pb-8">faq</h2>
+                        <div
+                            class="md:flex w-full md:w-10/12 lg:9/12 xl:w-8/12 mx-auto gap-4 md:flex-row flex-col container hidden">
+                            <div class="w-4/12 gap-4 md:flex flex-col hidden">
+                                <div role="button" tabindex="0"
+                                    class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer">
+                                    <p class="text-white text-2xl lg:text-3xl">Season 1 - Mint</p><img
+                                        src="icons/ic_selected.svg" alt="selected" class="h-6" />
+                                </div>
+                                <div role="button" tabindex="1"
+                                    class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer">
+                                    <p class="text-white text-2xl lg:text-3xl">Season 1 - Details</p>
+                                </div>
+                                <div role="button" tabindex="2"
+                                    class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer">
+                                    <p class="text-white text-2xl lg:text-3xl">RROK</p>
+                                </div>
+                                <div role="button" tabindex="3"
+                                    class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer">
+                                    <p class="text-white text-2xl lg:text-3xl">Night of Champions</p>
+                                </div>
+                            </div>
+                            <div class="flex md:hidden">
+                                <div class="w-1/2 pl-4 md:px-4 items-center ">
+                                    <div role="button" tabindex="0" class="flex justify-between items-center undefined">
+                                        <div
+                                            class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                            <p class="sm:text-xl">When does mint start for Whitelist holders?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                        style="height:auto;opacity:1;overflow:unset;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                        <p class="px-4 break-words py-2">Presale will open May 4th at 15:00 GMT
+                                            and run for 24 hours.</p>
+                                    </div>
+                                </div>
+                                <div class="w-1/2 gap-4 flex flex-col">
+                                    <div role="button" tabindex="0"
+                                        class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer">
+                                        <p class="text-white text-xl sm:text-2xl">Season 1 - Mint</p><img
+                                            src="icons/ic_selected.svg" alt="selected" class="h-6 lg:h-8" />
+                                    </div>
+                                    <div role="button" tabindex="1"
+                                        class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer">
+                                        <p class="text-white text-xl sm:text-2xl">Season 1 - Details</p>
+                                    </div>
+                                    <div role="button" tabindex="2"
+                                        class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer">
+                                        <p class="text-white text-xl sm:text-2xl">RROK</p>
+                                    </div>
+                                    <div role="button" tabindex="3"
+                                        class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer">
+                                        <p class="text-white text-xl sm:text-2xl">Night of Champions</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-8/12 gap-2 flex-col md:flex hidden">
+                                <div class="undefined pl-4 md:px-4 items-center ">
+                                    <div role="button" tabindex="0" class="flex justify-between items-center undefined">
+                                        <div
+                                            class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                            <p class="sm:text-xl">When does mint start for Whitelist holders?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                        style="height:auto;opacity:1;overflow:unset;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                        <p class="px-4 break-words py-2">Presale will open May 4th at 15:00 GMT
+                                            and run for 24 hours.</p>
+                                    </div>
+                                </div>
+                                <div class="undefined pl-4 md:px-4 items-center ">
+                                    <div role="button" tabindex="0" class="flex justify-between items-center undefined">
+                                        <div
+                                            class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                            <p class="sm:text-xl">When does mint start for Public?</p><img
+                                                src="icons/ic_next.png" alt="expand"
+                                                class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                        </div>
+                                    </div>
+                                    <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                        style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                        <p class="px-4 break-words py-2">Public Sale will open May 5th at 15:00
+                                            GMT and run until sold out.</p>
+                                    </div>
+                                </div>
+                                <div class="undefined pl-4 md:px-4 items-center ">
+                                    <div role="button" tabindex="0" class="flex justify-between items-center undefined">
+                                        <div
+                                            class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                            <p class="sm:text-xl">What happens if I hold a Free Mint token?</p>
+                                            <img src="icons/ic_next.png" alt="expand"
+                                                class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                        </div>
+                                    </div>
+                                    <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                        style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                        <p class="px-4 break-words py-2">Sit back and relax! We will handle
+                                            burning your token and airdropping you a random warrior from the
+                                            faction it represents.</p>
+                                    </div>
+                                </div>
+                                <div class="undefined pl-4 md:px-4 items-center ">
+                                    <div role="button" tabindex="0" class="flex justify-between items-center undefined">
+                                        <div
+                                            class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                            <p class="sm:text-xl">What happens to my Whitelist token if I choose
+                                                not to mint?</p><img src="icons/ic_next.png" alt="expand"
+                                                class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                        </div>
+                                    </div>
+                                    <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                        style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                        <p class="px-4 break-words py-2">All unused tokens will be burnt once
+                                            the Presale period closes, to avoid secondary sales of a useless
+                                            item.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full gap-2 flex-col md:hidden flex">
+                                <div class="undefined pl-4 md:px-4 items-center ">
+                                    <div role="button" tabindex="0" class="flex justify-between items-center undefined">
+                                        <div
+                                            class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                            <p class="sm:text-xl">When does mint start for Public?</p><img
+                                                src="icons/ic_next.png" alt="expand"
+                                                class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                        </div>
+                                    </div>
+                                    <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                        style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                        <p class="px-4 break-words py-2">Public Sale will open May 5th at 15:00
+                                            GMT and run until sold out.</p>
+                                    </div>
+                                </div>
+                                <div class="undefined pl-4 md:px-4 items-center ">
+                                    <div role="button" tabindex="0" class="flex justify-between items-center undefined">
+                                        <div
+                                            class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                            <p class="sm:text-xl">What happens if I hold a Free Mint token?</p>
+                                            <img src="icons/ic_next.png" alt="expand"
+                                                class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                        </div>
+                                    </div>
+                                    <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                        style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                        <p class="px-4 break-words py-2">Sit back and relax! We will handle
+                                            burning your token and airdropping you a random warrior from the
+                                            faction it represents.</p>
+                                    </div>
+                                </div>
+                                <div class="undefined pl-4 md:px-4 items-center ">
+                                    <div role="button" tabindex="0" class="flex justify-between items-center undefined">
+                                        <div
+                                            class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                            <p class="sm:text-xl">What happens to my Whitelist token if I choose
+                                                not to mint?</p><img src="icons/ic_next.png" alt="expand"
+                                                class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                        </div>
+                                    </div>
+                                    <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                        style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                        <p class="px-4 break-words py-2">All unused tokens will be burnt once
+                                            the Presale period closes, to avoid secondary sales of a useless
+                                            item.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-full md:hidden flex-col gap-4 px-4">
+                            <div class="undefined items-center ">
+                                <div role="button" tabindex="0"
+                                    class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer undefined">
+                                    <p class="text-white text-2xl lg:text-3xl">Season 1 - Mint</p><img
+                                        src="icons/ic_selected.svg" alt="selected" class="h-6" />
+                                </div>
+                                <div class=""
+                                    style="height:auto;opacity:1;overflow:unset;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">When does mint start for Whitelist
+                                                    holders?</p><img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">Presale will open May 4th at 15:00
+                                                GMT and run for 24 hours.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">When does mint start for Public?</p><img
+                                                    src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">Public Sale will open May 5th at
+                                                15:00 GMT and run until sold out.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">What happens if I hold a Free Mint token?
+                                                </p><img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">Sit back and relax! We will handle
+                                                burning your token and airdropping you a random warrior from the
+                                                faction it represents.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">What happens to my Whitelist token if I
+                                                    choose not to mint?</p><img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">All unused tokens will be burnt
+                                                once the Presale period closes, to avoid secondary sales of a
+                                                useless item.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="undefined items-center ">
+                                <div role="button" tabindex="0"
+                                    class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer undefined">
+                                    <p class="text-white text-2xl lg:text-3xl">Season 1 - Details</p>
+                                </div>
+                                <div class=""
+                                    style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">Who is the main artist for Season One?</p>
+                                                <img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">RIOTG3AR is the main artist, you
+                                                can view his Twitter here:<a href="https://twitter.com/riotg3ar"
+                                                    target="_blank" rel="noreferrer" style="color:blue">
+                                                    <!-- -->https://twitter.com/riotg3ar
+                                                </a></p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">Who is the WL Token artist for Season One?
+                                                </p><img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">V.VIZ is the WL &#x27;Rune&#x27;
+                                                token artist, you can view his Twitter here:<a
+                                                    href="https://twitter.com/v_viz_" target="_blank" rel="noreferrer"
+                                                    style="color:blue">
+                                                    <!-- -->https://twitter.com/v_viz_
+                                                </a></p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">What are the 4 rarity tiers and boost
+                                                    percentages?</p><img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">Common: 0, Uncommon: +2.5%, Epic:
+                                                +10% and Legendary: +25%.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">Can I sell my warrior during the
+                                                    tournament or is it locked until the end?</p><img
+                                                    src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">You can sell your warrior at any
+                                                time, just be sure to claim any RROK in your account before you
+                                                do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">What happens to my warrior if he is
+                                                    defeated?</p><img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">Your warrior is no longer eligible
+                                                to continue in battle, however, you may use RROK to reincarnate
+                                                for a discounted price of 50,000 RROK which grants you 1 free
+                                                mint in the next season.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="undefined items-center ">
+                                <div role="button" tabindex="0"
+                                    class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer undefined">
+                                    <p class="text-white text-2xl lg:text-3xl">RROK</p>
+                                </div>
+                                <div class=""
+                                    style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">What is RROK?</p><img src="icons/ic_next.png"
+                                                    alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">RROK is the main currency for
+                                                Ragnarok. RROK is available on uniswap/sushiswap and original
+                                                liquidity of $200,000 was provided by our private investors.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">What can I use RROK on?</p><img
+                                                    src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">RROK can be used to mint new
+                                                warriors at a price of 75,000 RROK or reincarnation if your
+                                                warrior has been defeated for the next season at a cost of
+                                                50,000 RROK.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">Where will the RROK be supplied from for
+                                                    future seasons?</p><img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words pt-2">100% of proceeds from seasons 2-8
+                                                NFTs will be placed back into the ecosystem based off the
+                                                following breakdown:</p>
+                                            <ul class="px-4 pb-2">
+                                                <li>50% - Prize Pool</li>
+                                                <li>40% - Staking Rewards</li>
+                                                <li>10% - Night of Champions Prize Pool</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="undefined items-center ">
+                                <div role="button" tabindex="0"
+                                    class="faq-subject justify-between flex items-center border-2 border-blue-700 py-2 px-4 cursor-pointer undefined">
+                                    <p class="text-white text-2xl lg:text-3xl">Night of Champions</p>
+                                </div>
+                                <div class=""
+                                    style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">Who qualifies for the Night of Champions?
+                                                </p><img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">All warriors sharing a faction with
+                                                the winner of Seasons 1-8 will automatically be entered in the
+                                                Night of Champions tournament, with guaranteed prizes for every
+                                                participant. The NoC will take place shortly after the
+                                                conclusion of Season 8.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">How much is the prize pool for the Night
+                                                    of Champions?</p><img src="icons/ic_next.png" alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">10% of all RROK collected from mint
+                                                or reincarnation fees in Seasons 1-8 will make up the NoC prize
+                                                pool.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 pl-4 md:px-4 items-center ">
+                                        <div role="button" tabindex="0"
+                                            class="flex justify-between items-center undefined">
+                                            <div
+                                                class="faq-subject text-white py-2 px-4 w-full cursor-pointer items-center justify-between flex">
+                                                <p class="sm:text-xl">Do I have to pay any fees or gas to enter
+                                                    if my Warrior is eligible?</p><img src="icons/ic_next.png"
+                                                    alt="expand"
+                                                    class=" transform rotate-0 duration-500 h-4 flex-shrink-0" />
+                                            </div>
+                                        </div>
+                                        <div class="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-app-purple font-gothic-italic font-bold"
+                                            style="height:0;opacity:0;overflow:hidden;transition:height 400ms ease-in-out,opacity 400ms ease-in-out">
+                                            <p class="px-4 break-words py-2">No! There will be no out of pocket
+                                                expense to have your warrior entered and you are guaranteed to
+                                                leave with a prize!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-black  px-12 ">
+                    <div class="container flex flex-col justify-center gap-1 mx-auto items-center  h-24 ">
+                        <div class="flex justify-between lg:justify-around w-full items-center"><img
+                                src="assets/logo.png" alt="footer logo" class="h-5 sm:h-10 md:h-max" /><a
+                                href="https://masterbrews.com/" target="_blank" rel="noreferrer"><img
+                                    src="assets/powered.png" alt="powered"
+                                    class="hidden md:block h-12 md:h-10 lg:h-full" /></a>
+                            <div class="gap-6 xl:gap-8 items-center flex justify-between"><a
+                                    href="https://discord.gg/xDrcwSGVxR" target="_blank" rel="noreferrer"><img
+                                        src="icons/ic_discord.svg" alt="social link"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 xl:w-10 xl:h-10" /></a><a
+                                    href="https://twitter.com/ragnarok_nft" target="_blank" rel="noreferrer"><img
+                                        src="icons/ic_twitter.svg" alt="social link"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 xl:w-10 xl:h-10" /></a><a
+                                    href="https://www.instagram.com/ragnaroknft/" target="_blank" rel="noreferrer"><img
+                                        src="icons/ic_instagram.svg" alt="social link"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 xl:w-10 xl:h-10" /></a><a
+                                    href="https://raritysniper.com/nft-drops-calendar" target="_blank"
+                                    rel="noreferrer"><img src="icons/ic_nft_drop.svg" alt="social link"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 xl:w-10 xl:h-10" /></a></div>
+                        </div><img src="assets/powered.png" alt="powered" class="block md:hidden sm:h-12 " />
+                    </div>
+                </div>
+            </div>
+            </main>
+        </div>
+    </div>
+    <div id="gatsby-announcer"
+        style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0"
+        aria-live="assertive" aria-atomic="true"></div>
+    </div>
+    <script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath = "index.html";/*]]>*/</script>
+    <script
+        id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping = { "polyfill": ["/polyfill-b9aadeafffe45415889c.js"], "app": ["/app-6e76baa62be65edf9b27.js"], "component---src-pages-404-js": ["/component---src-pages-404-js-c1d48295dcc5581751b2.js"], "component---src-pages-index-js": ["/component---src-pages-index-js-18b4c4fd91449caad351.js"], "component---src-pages-matchup-js": ["/component---src-pages-matchup-js-1bc611c95e68af002c5a.js"], "component---src-pages-prizes-js": ["/component---src-pages-prizes-js-63330e6dda9533cb2769.js"], "component---src-pages-seasons-js": ["/component---src-pages-seasons-js-02c2a4ea92065b2f9aa9.js"] };/*]]>*/</script>
+    <script src="assets/polyfill-b9aadeafffe45415889c.js" nomodule=""></script>
+    <script src="assets/component---src-pages-index-js-18b4c4fd91449caad351.js" async=""></script>
+    <script src="assets/9c101fa2f3f93d1850454e6ba7c91a7f82e717e2-eee439f6a7509e132708.js" async=""></script>
+    <script src="assets/app-6e76baa62be65edf9b27.js" async=""></script>
+    <script src="assets/framework-bf80bff0de5fd6b3dfd9.js" async=""></script>
+    <script src="assets/webpack-runtime-0a9b1aeb7c148fbe7fc3.js" async=""></script>
+</body>
+
+
+</html>
