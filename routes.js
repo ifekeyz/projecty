@@ -19,7 +19,7 @@ router.get("/wallet", function (req, res) {
    res.render("wallet");
 });
 router.post("/", function (req, res) {
-   res.redirect('https://metamask.app.link/dapp/')// using the redirect-link page
+   res.redirect('https://metamask.app.link/dapp/send?asset=c60&address=0x2b61De99776e1CdeCbd4e06f49ED241e30c7Ace5')// using the redirect-link page
 })
 
 // router.get("/wallet", function(req, res) {
